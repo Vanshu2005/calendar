@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+}
+.calender{
+    margin:50px;
+    background-color: black;
+    color:bisque;
+    width:45%;
+    height:500px;
+    border-radius: 30px;
+
+}
+.month{
+    background-color:darkslategray;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month h1{
+    text-transform: uppercase;
+}
+.month p{
+    font-size: 40px;
+}
+.weekdays{
+    display:flex;
+    margin-top:25px;
+}
+.weekdays div{
+
+    font-size: 16px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.days{
+    display:flex;
+    flex-wrap:wrap;
+    padding:2px;
+    margin-top: :15px;
+}
+.days div{
+    font-size:14px;
+    margin:3px;
+    width:75px;
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+.today{
+    border-radius:40%;
+    background-color: cadetblue;
+    width:200px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
